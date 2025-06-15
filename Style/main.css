@@ -1,0 +1,67 @@
+/* style.css */
+body {
+    margin: 0;
+    background-color: #008080;
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+  }
+  
+  #desktop {
+    height: 100vh;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .icon {
+    width: 80px;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .window {
+    width: 300px;
+    background: #c0c0c0;
+    border: 2px solid #000;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    box-shadow: 4px 4px #808080;
+  }
+  
+  .title-bar {
+    background: navy;
+    color: white;
+    padding: 4px;
+    display: flex;
+    justify-content: space-between;
+    cursor: move;
+  }
+  
+  .window-content {
+    padding: 10px;
+  }
+  
+  #taskbar {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: #c0c0c0;
+    border-top: 2px solid #000;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+  }
+  
+  #start-button {
+    background: #c0c0c0;
+    border: 2px outset #fff;
+    padding: 4px 10px;
+    cursor: pointer;
+  }
+  
+  #clock {
+    font-family: monospace;
+  }
+  
